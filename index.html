@@ -9,12 +9,20 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   </head>
   <body>
-
+    
     <div class="wrapper">
+      <div class="title-input">
+    
+      </div>
       <div class="input">
         <div class="task-input">
+          <p>Tâche</p> 
           <i class='bx bx-align-left'></i>
-          <input type="text" placeholder="Ajouter une nouvelle tâche" maxlength="30">  
+          <input type="text" placeholder="Ajouter une nouvelle tâche" maxlength="30"> 
+        </div>
+        <div class="date-input">
+          <p class="title-deadline">Deadeline</p>
+          <input type="date">   
         </div>
       </div>
 
@@ -26,7 +34,13 @@
         </div>
         <button class="clear-btn">Clear All</button>
       </div>
-      <ul class="task-box"></ul>
+      
+      <div class="task-box-name">
+        <p>Tâche</p><p class="deadline-task-box">Dealine</p>
+      </div>
+      <ul class="task-box">
+        
+      </ul>
     </div>
 
     <script src="script.js"></script>
