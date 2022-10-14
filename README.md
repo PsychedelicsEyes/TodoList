@@ -1,8 +1,8 @@
 # Todo list
 ## Langague used
 * HTML
-*CSS
-*JS
+* CSS
+* JS
 ## Screenshot
 ![Screenshot](https://i.postimg.cc/qBcWqL0t/image.png)
 ## 🏴 End of readme
